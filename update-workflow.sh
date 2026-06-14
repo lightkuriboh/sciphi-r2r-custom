@@ -1,5 +1,5 @@
-git clone $THIS_REMOTE_REPO ../$THIS_REMOTE_REPO-work-on-private-B
-cd ../$THIS_REMOTE_REPO-work-on-private-B
+git clone $THIS_REMOTE_REPO ../temp/$THIS_REMOTE_REPO-work-on-private-B
+cd ../temp/$THIS_REMOTE_REPO-work-on-private-B
 git remote add upstream git@github.com:SciPhi-AI/R2R.git
 git fetch upstream
 git checkout -b update_stream main
